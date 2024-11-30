@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(19, 0, 190);
+    font-size: medium;
+    font-family: serif;
+    color: rgb(255, 255, 255);}
+
+.title{
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 100;
+    margin-left: 60%;
+    margin-top: 30%;
+    transform-origin: top left;
+    position: fixed;
+    mix-blend-mode: overlay;
+    }
+
+.tank {
+    width: 400px; /* Control the width of the audio player */
+    /* border: 2px solid #ffffff;  */
+    /* Remove border-radius to keep rigid corners */
+    border-radius: 0; 
+    padding: 5px; /* Optional: Add some padding inside the player */
+    transform: scale(0.7);
+    mix-blend-mode: difference;
+    transform-origin: top left;
+    position: fixed;
+    margin-top: 20%;
+    margin-left: 75%;
+    z-index: 100;
+    }
+
+.background{
+    transform: scale(0.6,0.5);
+    transform-origin: top left;
+    z-index: -100;
+    position: fixed;
+    margin-top: -50px;
+    margin-left: -50px;
+    mix-blend-mode: hard-light;
+    opacity: 100%;
+ }
+
+.background_top{
+    transform: scale(2.5);
+    margin-left: -100px;
+    /* margin-top: -100px; */
+    transform-origin: top left;
+    mix-blend-mode: exclusion;
+    position: relative;
+    opacity: 50%;
+}
+
+#colorBlock {
+    width: 600px;  
+    height: 600px;      
+    background-color: #ae63ff;      
+    position: absolute;    
+    pointer-events: none;    
+    transition: transform 0.1s ease; 
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    }    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
